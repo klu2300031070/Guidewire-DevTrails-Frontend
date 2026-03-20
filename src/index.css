@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Global styling (Arbol-style clean look) */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
