@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="fixed top-4 w-full flex justify-center z-50">
       <div className="w-[90%] max-w-6xl bg-white/80 backdrop-blur-md rounded-full shadow-lg px-6 py-3 flex justify-between items-center">
-        <img src="./Paysheildlogo.png" alt="logo" className="logo" />
+        {/* <img src="./Paysheildlogo.png" alt="logo" className="logo" /> */}
         <h1 className="font-bold text-lg text-gray-800">PayShield</h1>
 
         <div className="hidden md:flex gap-6 text-sm text-gray-600">
