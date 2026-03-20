@@ -9,6 +9,7 @@ import StatsSection from "./StatsSection";
 import WhyChooseUs from "./WhyChooseUs";
 import WhatUsersSay from "./WhatUsersSay";
 import Footer from "./Footer";
+import PlansSection from './PlansSection';
 
 export default function Home() {
   const navigate = useNavigate();
@@ -59,16 +60,16 @@ export default function Home() {
           </div>
         </motion.div>
       </section>
-
       {/* STATS */}
-     <StatsSection/>
 
       {/* Parametric / Traditional Steps */}
-      <ParametricSection />
       <Accordion/>
+     <StatsSection/>
       {/* FEATURES */}
       <WhyChooseUs/>
       {/* TESTIMONIALS */}
+      <ParametricSection />
+      <PlansSection/>
       <WhatUsersSay/>
       {/* CTA */}
       <Footer/>
