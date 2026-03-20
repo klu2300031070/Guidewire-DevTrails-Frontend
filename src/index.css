@@ -6,3 +6,14 @@
 body {
   @apply bg-gray-100 text-gray-900;
 }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.logo {
+  height: 60px;
+  width: auto;   /* ✅ important */
+}
